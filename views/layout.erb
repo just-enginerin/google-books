@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Serif+Pro&display=swap" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <title>Google Books</title>
+    </head>
+
+    <body>
+    <div class="grid1 grid2">
+        <form action="/" method="POST" class="searchbar1 searchbar2">
+            <input name="query" class="query"/>
+            <button class="search-btn">Search</button>
+        </form>
+
+        <%= yield %>
+    </div>
+    </body>
+    </html>
